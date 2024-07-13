@@ -1,0 +1,8 @@
+Origin: deb.quitaxd.online
+Label: apt repository
+Codename: qui
+Architectures: amd64 source
+Components: main
+Description: qui's debian repo
+SignWith: yes
+Pull: qui
