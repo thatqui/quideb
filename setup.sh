@@ -8,12 +8,17 @@ if [ ! -d ".temp" ]; then
   mkdir -p .temp
 fi
 
+rm .temp/*
+
 rm -rf pool dists db
 
 cd .temp
 
-wget https://dl.discordapp.net/apps/linux/0.0.59/discord-0.0.59.deb
-wget https://packages.element.io/debian/dists/default/main/binary-amd64/Packages/pool/main/e/element-desktop/element-desktop_1.11.70_amd64.deb
+xdg-open https://github.com/cinnyapp/cinny-desktop/releases/latest
+read -p "Paste cinny link: " cinnylink
+
+wget $cinnylink
+
 cd ..
 
-reprepro --ask-passphrase -Vb . includedeb qui .temp/*.deb
+reprepro -S --ask-passphrase -Vb . includedeb qui .temp/*.deb

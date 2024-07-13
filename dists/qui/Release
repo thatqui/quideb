@@ -1,27 +1,27 @@
 Origin: deb.quitaxd.online
 Label: apt repository
 Codename: qui
-Date: Sat, 13 Jul 2024 11:29:22 UTC
+Date: Sat, 13 Jul 2024 11:56:41 UTC
 Architectures: amd64
 Components: main
 Description: qui's debian repo
 MD5Sum:
- 5b580f58258010f25880558dbc0dc6c2 773 main/binary-amd64/Packages
- e61fd88805ccd68eb20f97c0fb832b8e 508 main/binary-amd64/Packages.gz
+ 7a7889d1a75ff8734da03afb8be699d2 483 main/binary-amd64/Packages
+ 2f8ba2d2a3a166f6bd0d7cf6e1b8bf4f 372 main/binary-amd64/Packages.gz
  5b31a34ce222d0a22ad22472d8c76be4 116 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  5dc3a2ca8e839bbcd2d82361464d94a5 117 main/source/Release
 SHA1:
- e294dfc1e657b7a1fa9c67fd634ea95845909477 773 main/binary-amd64/Packages
- 8cc8ef6b74690ea31c339f5abc9d6912e19a54c3 508 main/binary-amd64/Packages.gz
+ 91e7cfe5f61bf57c7c02441be1dbf009e3cb350d 483 main/binary-amd64/Packages
+ 59c397f0ceb0f45392b30668d93b31c6a779037b 372 main/binary-amd64/Packages.gz
  a96c443f87b5b3094290d36b87297f3595895048 116 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  53527b0710c2fcbff3b4af32637fb3027508477c 117 main/source/Release
 SHA256:
- 882080ccc969d84fa5f62902806ca70bf4a0d177ffe85dddd038369f6efdc8de 773 main/binary-amd64/Packages
- b5f892b4de2f79f8205b968c1656b2a337500ca789a4e62f04c775cc095afc1a 508 main/binary-amd64/Packages.gz
+ bc763444c5861229d62a291407e0759cbca808561a193b98de50d1b999dee1b7 483 main/binary-amd64/Packages
+ d9b9be18b7c2b7807b31f5bfb9d2c84176596d8f67acf5a11a4b72ec74a45852 372 main/binary-amd64/Packages.gz
  502a7994888dfc7e1d3f2095b53b48a3fe71bca41656598b76f15b4a0f04c31f 116 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
